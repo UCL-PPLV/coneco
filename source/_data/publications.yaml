@@ -10,7 +10,7 @@
     url: https://www.etaps.org/index.php/2018/esop
   links:
     arxiv: 1710.02787
-    doi: pending 
+    doi: 10.1007/978-3-319-89884-1_30
   abstract: >
     Concurrent Kleene Algebra (CKA) was introduced by Hoare, Moeller, Struth and Wehrman in 2009 as a framework to reason about concurrent programs.
     We prove that the axioms for CKA with bounded parallelism are complete for the semantics proposed in the original paper; consequently, these semantics are the free model for this fragment.
