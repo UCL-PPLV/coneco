@@ -1,0 +1,44 @@
+- title: 'Concurrent Kleene Algebra: free model and completeness'
+  id: free-complete
+  paper: free-complete
+  abstract: >
+    Concurrent Kleene Algebra (CKA) was introduced by Hoare, Moeller, Struth and Wehrman in 2009 as a framework to reason about concurrent programs. 
+    Up until now, a description of the free model that corresponds to the CKA axioms was missing. 
+    Using a fixpoint construction, we show that the free model of the fragment of CKA with bounded parallelism consists of pomset languages that are downward-closed under the subsumption (linearisation) order.
+  venues:
+  - name: Verification and Testing seminar, Sheffield
+    url: https://www.sheffield.ac.uk/dcs/research/groups/vt/seminars
+    date: 16/02/2018
+    speaker: Tobias Kappé
+  - name: Theoretical Computer Science seminar, Birmingham
+    url: http://talks.bham.ac.uk/talk/index/3122
+    date: 16/02/2018
+    speaker: Alexandra Silva
+  - name: Brouwer seminar, Nijmegen
+    url: https://www.cs.ru.nl/is/foundations/seminar/
+    date: 16/01/2018
+    speaker: Tobias Kappé
+  - name: NII logic seminar, Tokyo
+    url: http://research.nii.ac.jp/~tatsuta/logicseminar.html
+    date: 18/10/2017
+    speaker: Tobias Kappé
+- title: 'Brzozowski goes concurrent: a Kleene theorem for Pomset languages'
+  id: brzozowski
+  paper: brzozowski
+  abstract: >
+    Concurrent Kleene Algebra (CKA) is a mathematical formalism to study programs that exhibit concurrent behaviour.
+    As with previous extensions of Kleene Algebra, characterizing the free model is crucial in order to develop the foundations of the theory and potential applications.
+    For CKA, this has been an open question for a few years.
+    We pave the way towards a solution, by presenting a new automaton model and a Kleene-like theorem for CKA.
+    There are two substantial differences with previous work: from expressions to automata, we use Brzozowski derivatives, which enable a direct construction of the automaton; from automata to expressions, we provide a syntactic characterization of the automata that denote valid CKA behaviours.
+  venues: 
+  - name: CONCUR 2017, Berlin
+    url: https://www.concur2017.tu-berlin.de/
+    date: 08/09/2017
+    speaker: Tobias Kappé
+  - name: FSCD 2017, Oxford
+    url: https://www.cs.ox.ac.uk/conferences/fscd2017/
+    date: 04/09/2017
+    doi: 10.4230/LIPIcs.FSCD.2017.3
+    speaker: Alexandra Silva
+    invited: true

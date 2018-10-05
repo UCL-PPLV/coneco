@@ -1,0 +1,45 @@
+---
+pages:
+- name: about
+  id: index
+- name: team
+  id: team
+- name: publications
+  id: publications
+- name: talks
+  id: talks
+- name: tools
+  id: tools
+---
+<!doctype html>
+<html>
+    <head>
+        <title>CoNeCo: Concurrency, Networks and Coinduction — {{ page.title }}</title>
+
+        <link rel="stylesheet" href="style/main.css" />
+        {%- if page.style %}
+        <link rel="stylesheet" href="style/{{ page.id }}.css" />
+        {%- endif %}
+
+        <meta name="robots" content="noindex, nofollow, noimageindex" />
+        <meta charset="utf-8" />
+    </head>
+    <body>
+        <header>
+            <object data="coneco.svg" type="image/svg+xml" id="logo"></object>
+            <div id="acronym">
+                <span>Concurrency</span>
+                <span>Networks, and</span>
+                <span>Coinduction</span>
+            </div>
+        </header>
+        <nav>
+        {%- for link in layout.pages %}
+            <a{% if page.id == link.id %} class="active"{% endif %} href="{{ link.id }}.html">{{ link.name | capitalize }}</a>
+        {%- endfor %}
+        </nav>
+        <section id="content">
+{{ content }}
+        </section>
+    </body>
+</html>

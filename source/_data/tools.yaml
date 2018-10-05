@@ -1,0 +1,7 @@
+- name: Tools for Concurrent Kleene Algebra
+  id: python-library
+  description: >
+    A small Python library that supports manipulation of (and, to a limited degree, reasoning about) terms in Concurrent Kleene Algebra, a formalism that can be used to model concurrent program flow.
+    Besides utility functions for building terms Python-style, it can calculate the syntactic closure of a CKA term (without parallel star), which is an equivalent CKA term whose Bi-Kleene Algebra semantics coincide with the CKA semantics. This syntactic closure can, for instance, be used to leverage an existing BKA equivalence checking algorithm in order to decide the equational theory of CKA.
+  doi: 10.5281/zenodo.926651
+  github: TobiasKappe/cka-tools

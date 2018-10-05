@@ -1,0 +1,38 @@
+- title: 'Concurrent Kleene Algebra: free model and completeness'
+  authors:
+  - Tobias Kappé
+  - Paul Brunet
+  - Alexandra Silva
+  - Fabio Zanasi
+  id: free-complete
+  venue: 
+    name: ESOP 2018
+    url: https://www.etaps.org/index.php/2018/esop
+  links:
+    arxiv: 1710.02787
+    doi: pending 
+  abstract: >
+    Concurrent Kleene Algebra (CKA) was introduced by Hoare, Moeller, Struth and Wehrman in 2009 as a framework to reason about concurrent programs.
+    We prove that the axioms for CKA with bounded parallelism are complete for the semantics proposed in the original paper; consequently, these semantics are the free model for this fragment.
+    This result settles a conjecture of Hoare and collaborators.
+    Moreover, the techniques developed along the way are reusable; in particular, they allow us to establish pomset automata as an operational model for CKA.
+- title: 'Brzozowski goes concurrent: a Kleene theorem for Pomset languages'
+  authors:
+  - Tobias Kappé
+  - Paul Brunet
+  - Bas Luttik
+  - Alexandra Silva
+  - Fabio Zanasi
+  id: brzozowski
+  venue: 
+    name: CONCUR 2017
+    url: https://www.concur2017.tu-berlin.de/
+  links:
+    arxiv: 1704.07199
+    doi: 10.4230/LIPIcs.CONCUR.2017.25
+  abstract: >
+    Concurrent Kleene Algebra (CKA) is a mathematical formalism to study programs that exhibit concurrent behaviour.
+    As with previous extensions of Kleene Algebra, characterizing the free model is crucial in order to develop the foundations of the theory and potential applications.
+    For CKA, this has been an open question for a few years and this paper makes an important step towards an answer.
+    We present a new automaton model and a Kleene-like theorem that relates a relaxed version of CKA to series-parallel pomset languages, which are a natural candidate for the free model.
+    There are two substantial differences with previous work: from expressions to automata, we use Brzozowski derivatives, which enable a direct construction of the automaton; from automata to expressions, we provide a syntactic characterization of the automata that denote valid CKA behaviours.

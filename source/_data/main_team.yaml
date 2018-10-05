@@ -1,0 +1,15 @@
+- name: Paul Brunet
+  affiliation: University College London
+  website: http://paul.brunet-zamansky.fr/
+  image: paul
+- name: Tobias Kappé
+  affiliation: University College London
+  image: tobias
+- name: Alexandra Silva
+  affiliation: University College London
+  website: http://www.alexandrasilva.org/
+  image: alex
+- name: Fabio Zanasi
+  affiliation: University College London
+  website: http://www.zanasi.com/fabio/
+  image: fabio

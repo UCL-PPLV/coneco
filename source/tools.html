@@ -1,0 +1,16 @@
+---
+layout: default
+title: Tools
+id: tools
+style: true
+---
+{%- for tool in site.data.tools %}
+<div class="tool targetable" id="tool-{{ tool.id }}">
+    <h3>{{ tool.name }}</h3>
+    <div class="description">{{ tool.description }}</div>
+    <div class="buttons">
+        <a class="upstream" href="https://doi.org/{{ tool.doi }}">DOI: <span class="identifier">{{ tool.doi }}</span></a>
+        <a class="upstream" href="https://github.com/{{ tool.github }}"><img src="images/github.png" class="github-icon" /> <span class="identifier">{{ tool.github }}</span></a>
+    </div>
+</div>
+{%- endfor %}
