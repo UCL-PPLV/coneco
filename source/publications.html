@@ -8,7 +8,13 @@ style: true
 <div class="publication targetable" id="publication-{{ publication.id }}">
     <h3>
         <span class="title">{{ publication.title }}</span>
-        <span class="venue">(<a href="{{ publication.venue.url }}">{{ publication.venue.name }}</a>)</span>
+        <span class="venue">
+            {%- if publication.venue.name == 'preprint' %}
+            ({{ publication.venue.name }})
+            {%- else %}
+            (<a href="{{ publication.venue.url }}">{{ publication.venue.name }}</a>)
+            {%- endif %}
+        </span>
     </h3>
     <div class="authors">{{ publication.authors | array_to_sentence_string }}</div>
     <div class="abstract">{{ publication.abstract }}</div>
