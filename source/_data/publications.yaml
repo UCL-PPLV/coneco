@@ -1,3 +1,20 @@
+- title: 'Equivalence checking for weak bi-Kleene algebra'
+  authors:
+  - Tobias Kappé
+  - Paul Brunet
+  - Bas Luttik
+  - Alexandra Silva
+  - Fabio Zanasi
+  venue:
+    name: preprint
+  id: bka-equivalence-checking
+  links:
+    arxiv: 1807.02102
+  abstract: >
+     Pomset automata are an operational model of weak bi-Kleene algebra, which describes program that can fork an execution into parallel threads, upon completion of which execution can join to resume as a single thread.
+     We characterize a fragment of pomset automata that admits a decision procedure for language equivalence.
+     Furthermore, we prove that this fragment corresponds precisely to series-rational expressions, i.e., rational expressions with an additional operator for bounded parallelism.
+     As a consequence, we obtain a new proof that equivalence of series-rational expressions is decidable.
 - title: 'Concurrent Kleene Algebra: free model and completeness'
   authors:
   - Tobias Kappé
