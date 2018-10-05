@@ -2,8 +2,8 @@
   id: free-complete
   paper: free-complete
   abstract: >
-    Concurrent Kleene Algebra (CKA) was introduced by Hoare, Moeller, Struth and Wehrman in 2009 as a framework to reason about concurrent programs. 
-    Up until now, a description of the free model that corresponds to the CKA axioms was missing. 
+    Concurrent Kleene Algebra (CKA) was introduced by Hoare, Moeller, Struth and Wehrman in 2009 as a framework to reason about concurrent programs.
+    Up until now, a description of the free model that corresponds to the CKA axioms was missing.
     Using a fixpoint construction, we show that the free model of the fragment of CKA with bounded parallelism consists of pomset languages that are downward-closed under the subsumption (linearisation) order.
   venues:
   - name: ESOP 2018, Thessaloniki
@@ -46,7 +46,7 @@
     For CKA, this has been an open question for a few years.
     We pave the way towards a solution, by presenting a new automaton model and a Kleene-like theorem for CKA.
     There are two substantial differences with previous work: from expressions to automata, we use Brzozowski derivatives, which enable a direct construction of the automaton; from automata to expressions, we provide a syntactic characterization of the automata that denote valid CKA behaviours.
-  venues: 
+  venues:
   - name: CONCUR 2017, Berlin
     url: https://www.concur2017.tu-berlin.de/
     date: 08/09/2017

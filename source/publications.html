@@ -24,7 +24,7 @@ style: true
         {%- endif %}
         {%- if publication.links.doi %}
         <a class="upstream"{% if publication.links.doi != 'pending' %} href="https://doi.org/{{ publication.links.doi }}"{% endif %}>
-            DOI: 
+            DOI:
             {%- if publication.links.doi == 'pending' %}
             <span class="placeholder">pending</span>
             {%- else %}

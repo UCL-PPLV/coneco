@@ -51,7 +51,7 @@ nav > a:hover {
     text-decoration: none;
 }
 
-a, 
+a,
 a:visited {
     text-decoration: none;
     color: blue;
@@ -62,8 +62,8 @@ a:hover {
 }
 
 @media (max-width: 999px) {
-    nav { 
-        border-radius: 0; 
+    nav {
+        border-radius: 0;
     }
 }
 
