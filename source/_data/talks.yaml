@@ -26,6 +26,17 @@
     url: http://research.nii.ac.jp/~tatsuta/logicseminar.html
     date: 18/10/2017
     speaker: Tobias Kappé
+- title: 'Concurrent Kleene Algebra'
+  id: overview
+  abstract: >
+    Kleene Algebra (KA) is a successful framework for studying program flow; it sports a simple yet expressive syntax, as well as efficient algorithms for model checking.
+    Recently, Concurrent Kleene Algebra (CKA) has been proposed by Hoare et al. as an extension of KA, aimed at incorporating concurrent composition.
+    We shall review some hurdles recently taken in the process of extending the toolkit of KA to one for CKA, as well as some problems yet to tackle.
+  venues:
+  - name: BCTCS 2018, Royal Holloway
+    url: http://bctcs18.cs.rhul.ac.uk/
+    date: 28/03/2018
+    speaker: Tobias Kappé
 - title: 'Brzozowski goes concurrent: a Kleene theorem for Pomset languages'
   id: brzozowski
   paper: brzozowski
