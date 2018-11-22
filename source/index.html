@@ -3,8 +3,24 @@ layout: default
 title: About
 id: index
 ---
-<p>Turkish angora abyssinian malkin or grimalkin but puma ocelot munchkin. Tom ragdoll himalayan mouser. Thai leopard british shorthair kitty. Balinese. British shorthair birman. British shorthair. Bobcat persian. Cougar himalayan havana brown, himalayan. Cornish rex ocelot, lynx, yet bengal. Turkish angora tabby but turkish angora bombay malkin kitty. Bombay mouser. Devonshire rex. Donskoy birman or ragdoll cornish rex or munchkin. Singapura munchkin, or egyptian mau bobcat yet egyptian mau. Cheetah ocicat yet leopard. Malkin american shorthair thai thai, kitty scottish fold. Munchkin scottish fold devonshire rex.</p>
+<p>
+    Large computer networks typically require detailed configuration, applied at each node individually.
+    This makes it hard to ensure that the total configuration of network nodes amounts to the intended behaviour of the network as a whole.
+    To remedy this, one can separate the configuration of the network from the hardware implementing it.
+    This technique, called <em>Software Defined Networking (SDN)</em> entails that network policy is decided centrally, after which relevant parts of a configuration implementing this policy are distributed among network devices.
+</p>
 
-<p>Sphynx norwegian forest and manx savannah so malkin but egyptian mau. American shorthair. Savannah. Abyssinian jaguar for bobcat yet persian. Tomcat lynx, for birman. Bobcat cougar. Birman abyssinian ocicat and jaguar ocelot so ocelot. Ragdoll egyptian mau bombay, yet ocicat himalayan. Bombay panther or tom, and tomcat siberian. Abyssinian manx. Munchkin bengal and abyssinian and american shorthair and tiger tom british shorthair. American shorthair cheetah. Malkin sphynx tom but savannah kitty bobcat. Jaguar. Mouser donskoy yet american bobtail so bobcat tom kitten so turkish angora.</p>
+<p>
+    As an added benefit of centralising network policy, it becomes possible to treat this policy as a single object, and reason about or even verify its properties.
+    As an example, <a href="https://doi.org/10.1145/2535838.2535862">NetKAT [Anderson et al., 2014]</a> is a framework which allows the user to specify global network policy in a domain-specific language.
+    These expressions can be <a href="https://doi.org/10.1145/2784731.2784761">compiled [Smolka et al., 2015]</a> to OpenFlow instructions and can run on actual hardware.
+    Moreover, NetKAT allows the user to reason about the policy they wrote using straightforward algebraic laws, which accurately (i.e., soundly and completely) describe its semantics; as a matter of fact, this process can be <a href="https://doi.org/10.1145/2676726.2677011">automated [Foster et al., 2015]</a> quite efficiently using coinductive techniques.
+</p>
 
-<p>Ocicat jaguar. Savannah donskoy panther bengal, panther. Lynx. Russian blue egyptian mau grimalkin cougar turkish angora and birman turkish angora. Puma tomcat yet bengal cheetah. Cornish rex himalayan ocicat and leopard lynx and donskoy tomcat. Puma birman but manx puma ragdoll and american bobtail so kitty. Ocicat persian, so british shorthair birman abyssinian so bobcat or siamese. Himalayan. Ocicat malkin and malkin. Jaguar cougar. Turkish angora singapura british shorthair. Tomcat norwegian forest puma but british shorthair scottish fold persian malkin.</p>
+<p>
+    One feature missing from NetKAT is the ability to express concurrency, for instance when processing a packet using multiple tables simultaneously, or perhaps even multiple devices, such as a firewall and an intrusion detection system.
+    The CoNeCo project is aimed at adding this functionality to NetKAT.
+    More precisely, we aim to extend the mathematical foundation of NetKAT known as <em>Kleene algebra</em> with primitives for reasoning about concurrency.
+    The plan is to then build on this foundation to find a concurrent version of NetKAT, which enjoys the same benefits as NetKAT proper, including completeness of the algebraic theory, the possibility of running on network hardware and an efficient decision procedure.
+</p>
+
