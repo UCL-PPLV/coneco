@@ -6,13 +6,13 @@
     Up until now, a description of the free model that corresponds to the CKA axioms was missing.
     Using a fixpoint construction, we show that the free model of the fragment of CKA with bounded parallelism consists of pomset languages that are downward-closed under the subsumption (linearisation) order.
   venues:
-  - name: ESOP 2018, Thessaloniki
-    url: https://www.etaps.org/2018/esop
-    date: 19/04/2018
-    speaker: Tobias Kappé
   - name: LIACS seminar, Leiden
     url: https://liacs.leidenuniv.nl/
     date: 30/04/2018
+    speaker: Tobias Kappé
+  - name: ESOP 2018, Thessaloniki
+    url: https://www.etaps.org/2018/esop
+    date: 19/04/2018
     speaker: Tobias Kappé
   - name: Verification and Testing seminar, Sheffield
     url: https://www.sheffield.ac.uk/dcs/research/groups/vt/seminars
