@@ -1,3 +1,21 @@
+- title: 'Kleene Algebra with Observations'
+  authors:
+  - Tobias Kappé
+  - Paul Brunet
+  - Jurriaan Rot
+  - Alexandra Silva
+  - Jana Wagemaker
+  - Fabio Zanasi
+  venue:
+    name: preprint
+  id: kao
+  links:
+    arxiv: 1811.10401
+  abstract: >
+     Kleene algebra with tests (KAT) is an algebraic framework for reasoning about the control flow of sequential programs.
+     However, when generalising KAT to reason about concurrent programs, axioms native to KAT in conjunction with expected axioms for reasoning about concurrency lead to an unexpected equation.
+     In this paper, we propose Kleene algebra with observations (KAO), a variant of KAT, as an alternative foundation for extending KAT to a concurrent setting.
+     We characterise the free model of KAO, and establish a decision procedure w.r.t. its equational theory.
 - title: 'Equivalence checking for weak bi-Kleene algebra'
   authors:
   - Tobias Kappé
