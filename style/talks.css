@@ -30,6 +30,8 @@
     padding-top: 5px;
     padding-bottom: 5px;
     font-style: italic;
+    hyphens: auto;
+    text-align: justify;
 }
 
 .talk td,

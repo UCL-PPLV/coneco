@@ -9,6 +9,8 @@
 
 .publication .abstract {
     font-style: italic;
+    hyphens: auto;
+    text-align: justify;
 }
 
 .publication h3 {
