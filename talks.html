@@ -39,6 +39,9 @@ style: true
             {%- if venue.doi %}
             <a class="upstream" href="https://doi.org/{{ venue.doi }}">DOI: <span class="identifier">{{ venue.doi }}</span></a>
             {%- endif %}
+            {%- if venue.slides %}
+            <a class="upstream" href="slides//{{ venue.slides }}">Slides</a>
+            {%- endif %}
             </td>
         </tr>
     {%- endfor %}
