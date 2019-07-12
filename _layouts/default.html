@@ -2,19 +2,27 @@
 pages:
 - name: about
   id: index
+  icon: question-circle
 - name: team
   id: team
+  icon: users
 - name: publications
   id: publications
+  icon: scroll
 - name: talks
   id: talks
+  icon: chalkboard
 - name: tools
   id: tools
+  icon: tools
 ---
 <!doctype html>
 <html>
     <head>
         <title>CoNeCo: Concurrency, Networks and Coinduction — {{ page.title }}</title>
+
+        <link rel="stylesheet" href="assets/academicons/css/academicons.css" />
+        <link rel="stylesheet" href="assets/font-awesome/css/all.css" />
 
         <link rel="stylesheet" href="style/main.css" />
         {%- if page.style %}
@@ -36,7 +44,7 @@ pages:
         </header>
         <nav>
         {%- for link in layout.pages %}
-            <a{% if page.id == link.id %} class="active"{% endif %} href="{{ link.id }}.html">{{ link.name | capitalize }}</a>
+            <a{% if page.id == link.id %} class="active"{% endif %} href="{{ link.id }}.html"><span class="fas fa-{{ link.icon }}"></span> {{ link.name | capitalize }}</a>
         {%- endfor %}
         </nav>
         <section id="content">

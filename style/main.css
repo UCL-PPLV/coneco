@@ -79,11 +79,10 @@ a:hover {
 
 a.upstream {
     border: 1px dashed black;
-    padding: 5px;
+    padding: 4px;
     border-radius: 2px;
     background-color: white;
     color: black;
-    font-size: 12px;
 }
 
 a.upstream:hover {

@@ -37,10 +37,10 @@ style: true
             </td>
             <td class="links">
             {%- if venue.doi %}
-            <a class="upstream" href="https://doi.org/{{ venue.doi }}">DOI: <span class="identifier">{{ venue.doi }}</span></a>
+            <a class="upstream" href="https://doi.org/{{ venue.doi }}"><span class="ai ai-doi"></span> <span class="identifier">{{ venue.doi }}</span></a>
             {%- endif %}
             {%- if venue.slides %}
-            <a class="upstream" href="slides//{{ venue.slides }}">Slides</a>
+            <a class="upstream" href="slides//{{ venue.slides }}"><span class="fas fa-file-pdf"></span> Slides</a>
             {%- endif %}
             </td>
         </tr>

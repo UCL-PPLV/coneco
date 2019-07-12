@@ -15,6 +15,7 @@
 .talk table {
     border-collapse: collapse;
     margin-left: 10px;
+    border-spacing: 0px 7px;
 }
 
 .talk th {
@@ -36,7 +37,7 @@
 
 .talk td,
 .talk th {
-    padding: 5px;
+    padding-top: 15px;
 }
 
 .talk td.date {
