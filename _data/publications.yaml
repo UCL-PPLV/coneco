@@ -12,6 +12,7 @@
   links:
     doi: 10.1016/j.jlamp.2018.12.001
     arxiv: 1812.03058
+    ucl: 10063259
   abstract: >
     Concurrent Kleene Algebra (CKA) is a formalism to study concurrent programs. Like previous Kleene Algebra extensions, developing a correspondence between denotational and operational perspectives is important, both for foundations and for applications. This paper takes an important step towards such a correspondence, by precisely relating bi-Kleene Algebra (BKA), a fragment of CKA, to a novel type of automata called pomset automata (PAs).
 
@@ -64,6 +65,7 @@
   links:
     arxiv: 1710.02787
     doi: 10.1007/978-3-319-89884-1_30
+    ucl: 10047906
   abstract: >
     Concurrent Kleene Algebra (CKA) was introduced by Hoare, Moeller, Struth and Wehrman in 2009 as a framework to reason about concurrent programs.
     We prove that the axioms for CKA with bounded parallelism are complete for the semantics proposed in the original paper; consequently, these semantics are the free model for this fragment.
@@ -83,6 +85,7 @@
   links:
     arxiv: 1704.07199
     doi: 10.4230/LIPIcs.CONCUR.2017.25
+    ucl: 1561446
   abstract: >
     Concurrent Kleene Algebra (CKA) is a mathematical formalism to study programs that exhibit concurrent behaviour.
     As with previous extensions of Kleene Algebra, characterizing the free model is crucial in order to develop the foundations of the theory and potential applications.

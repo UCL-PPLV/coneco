@@ -83,6 +83,7 @@ a.upstream {
     border-radius: 2px;
     background-color: white;
     color: black;
+    margin-right: 5px;
 }
 
 a.upstream:hover {

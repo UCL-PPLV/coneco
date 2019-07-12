@@ -19,17 +19,22 @@ style: true
     <div class="authors">{{ publication.authors | array_to_sentence_string }}</div>
     <div class="abstract">{{ publication.abstract }}</div>
     <div class="buttons">
-        {%- if publication.links.arxiv %}
+        {% if publication.links.arxiv -%}
         <a class="upstream" href="https://arxiv.org/abs/{{ publication.links.arxiv }}"><span class="ai ai-arxiv"></span> <span class="identifier">{{ publication.links.arxiv }}</span></a>
-        {%- endif %}
-        {%- if publication.links.doi %}
-        <a class="upstream"{% if publication.links.doi != 'pending' %} href="https://doi.org/{{ publication.links.doi }}"{% endif %}>
-            <span class="ai ai-doi"></span>
+        {%- endif -%}
+        {% if publication.links.doi -%}
+            <a class="upstream"{% if publication.links.doi != 'pending' %} href="https://doi.org/{{ publication.links.doi }}"{% endif %}><span class="ai ai-doi"></span>
             {%- if publication.links.doi == 'pending' %}
             <span class="placeholder">pending</span>
-            {%- else %}
+            {%- else -%}
             <span class="identifier">{{ publication.links.doi }}</span>
-            {%- endif %}
+            {%- endif -%}
+        </a>
+        {%- endif -%}
+        {% if publication.links.ucl -%}
+        <a class="upstream" href="http://discovery.ucl.ac.uk/{{ publication.links.ucl }}">
+            <span class="fas fa-university"></span>
+            <span class="identifier">UCL/{{ publication.links.ucl }}</span>
         </a>
         {%- endif %}
     </div>
