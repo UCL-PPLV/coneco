@@ -1,3 +1,18 @@
+- title: 'Kleene Algebra with Observations'
+  id: kao
+  paper: kao
+  abstract: >
+    Concurrent Kleene Algebra (CKA) is a formalism to study concurrent programs.
+    Like previous Kleene Algebra extensions, developing a correspondence between denotational and operational perspectives is important, for both foundations and applications.
+    This paper takes an important step towards such a correspondence, by precisely relating bi-Kleene Algebra (BKA), a fragment of CKA, to a novel type of automata, pomset automata (PAs).
+    We show that PAs can implement the BKA semantics of series-parallel rational expressions, and that a class of PAs can be translated back to these expressions.
+    We also characterise the behavior of general PAs in terms of context-free pomset grammars; consequently, universality, equivalence and series-parallel rationality of general PAs are undecidable.
+  venues:
+  - name: CONCUR 2019
+    url: https://event.cwi.nl/concur2019/
+    date: 30/08/2019
+    speaker: Tobias Kappé
+    slides: concur-2019.pdf
 - title: 'Concurrent Kleene Algebra: free model and completeness'
   id: free-complete
   paper: free-complete
