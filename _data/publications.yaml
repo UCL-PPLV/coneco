@@ -26,10 +26,12 @@
   - Jana Wagemaker
   - Fabio Zanasi
   venue:
-    name: preprint
+    name: CONCUR 2019
+    url: https://event.cwi.nl/concur2019/
   id: kao
   links:
     arxiv: 1811.10401
+    doi: '10.4230/LIPIcs.CONCUR.2019.41'
   abstract: >
      Kleene algebra with tests (KAT) is an algebraic framework for reasoning about the control flow of sequential programs.
      However, when generalising KAT to reason about concurrent programs, axioms native to KAT in conjunction with expected axioms for reasoning about concurrency lead to an unexpected equation.
