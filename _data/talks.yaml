@@ -1,3 +1,19 @@
+- title: 'An Algebraic Framework to Reason About Concurrency (Invited Talk)'
+  id: kao-alexandra
+  paper: kao
+  abstract: >
+    Kleene algebra with tests (KAT) is an algebraic framework for reasoning about the control flow of sequential programs.
+    Hoare, Struth, and collaborators proposed a concurrent extension of Kleene Algebra (CKA) as a first step towards developing algebraic reasoning for concurrent programs.
+    Completing their research program and extending KAT to encompass concurrent behaviour has however proven to be more challenging than initially expected.
+    The core problem appears because when generalising KAT to reason about concurrent programs, axioms native to KAT in conjunction with expected axioms for reasoning about concurrency lead to an unexpected equation about programs.
+    In this talk, we will revise the literature on CKA(T) and explain the challenges and solutions in the development of an algebraic framework for concurrency.
+    The talk is based on a series of papers joint with Tobias Kappé, Paul Brunet, Bas Luttik, Jurriaan Rot, Jana Wagemaker, and Fabio Zanasi [Tobias Kappé et al., 2017; Tobias Kappé et al., 2019; Kappé et al., 2018].
+  venues:
+  - name: 'FSTTCS 2019'
+    url: https://www.fsttcs.org.in/2019/
+    date: 12/12/2019
+    speaker: Alexandra Silva
+    doi: 10.4230/LIPIcs.FSTTCS.2019.6
 - title: 'Kleene Algebra with Observations'
   id: kao
   paper: kao
