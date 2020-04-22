@@ -1,3 +1,23 @@
+- title: 'Concurrent Kleene Algebra with Observations: from Hypotheses to Completeness'
+  authors: 
+  - Tobias Kappé
+  - Paul Brunet
+  - Alexandra Silva
+  - Jana Wagemaker
+  - Fabio Zanasi
+  venue:
+    name: FOSSACS 2020
+    url: https://www.etaps.org/2020/fossacs
+  links:
+    doi: '10.1007/978-3-030-45231-5_20'
+    arxiv: '2002.09682'
+  abstract: >
+    Concurrent Kleene Algebra (CKA) extends basic Kleene algebra with a parallel composition operator, which enables reasoning about concurrent programs.
+    However, CKA fundamentally misses tests, which are needed to model standard programming constructs such as conditionals and while-loops.
+    It turns out that integrating tests in CKA is subtle, due to their interaction with parallelism.
+    In this paper we provide a solution in the form of Concurrent Kleene Algebra with Observations (CKAO).
+    Our main contribution is a completeness theorem for CKAO.
+    Our result resorts on a more general study of CKA "with hypotheses", of which CKAO turns out to be an instance: this analysis is of independent interest, as it can be applied to extensions of CKA other than CKAO.
 - title: 'On series-parallel pomset languages: Rationality, context-freeness and automata'
   authors:
   - Tobias Kappé
