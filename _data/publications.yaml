@@ -11,6 +11,7 @@
   links:
     doi: '10.1007/978-3-030-45231-5_20'
     arxiv: '2002.09682'
+    ucl: '10096503'
   abstract: >
     Concurrent Kleene Algebra (CKA) extends basic Kleene algebra with a parallel composition operator, which enables reasoning about concurrent programs.
     However, CKA fundamentally misses tests, which are needed to model standard programming constructs such as conditionals and while-loops.
@@ -52,6 +53,7 @@
   links:
     arxiv: 1811.10401
     doi: '10.4230/LIPIcs.CONCUR.2019.41'
+    ucl: '10088517'
   abstract: >
      Kleene algebra with tests (KAT) is an algebraic framework for reasoning about the control flow of sequential programs.
      However, when generalising KAT to reason about concurrent programs, axioms native to KAT in conjunction with expected axioms for reasoning about concurrency lead to an unexpected equation.
