@@ -1,4 +1,4 @@
-- title: 'An Algebraic Framework to Reason About Concurrency (Invited Talk)'
+- title: 'Models of Concurrent Kleene Algebra (Invited Talk)'
   id: cka-alexandra
   abstract: >
     Kleene Algebra and variants thereof have been successfully used in verification of se- quential programs.
