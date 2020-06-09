@@ -1,4 +1,20 @@
 - title: 'An Algebraic Framework to Reason About Concurrency (Invited Talk)'
+  id: cka-alexandra
+  abstract: >
+    Kleene Algebra and variants thereof have been successfully used in verification of se- quential programs.
+    The leap to concurrent programs offers many challenges, both in terms of devising the right foundations to study concurrent variants of Kleene Algebra but also in finding the right models to enable effective verification of relevant programs.
+    In this talk, we will review existing and ongoing work on concurrent Kleene Algebra with a focus on a variant called partially observable concurrent Kleene algebra (POCKA).
+    POCKA offers an algebraic framework to reason about concurrent programs with control structures, such as conditionals and loops.
+    We will show how a previously developed technique for com- pleteness of Kleene Algebra can be lifted to prove that POCKA is a sound and complete axiomatization of a model of partial observations.
+    We illustrate the use of the framework in the analysis of sequential consistency, i.e., whether programs behave as if memory accesses taking place were interleaved and executed sequentially.
+    The work described in this invited talk is based on [1, 2, 3], and it is joint with a won- derful group of people: Paul Brunet, Simon Docherty, Tobias Kappé, Jurriaan Rot, Jana Wagemaker, and Fabio Zanasi.
+  venues:
+  - name: 'LPAR 2020'
+    url: https://easychair.org/smart-program/LPAR23/
+    date: Jan. 2021
+    speaker: Alexandra Silva
+    doi: 10.29007/qp92
+- title: 'An Algebraic Framework to Reason About Concurrency (Invited Talk)'
   id: kao-alexandra
   paper: kao
   abstract: >
